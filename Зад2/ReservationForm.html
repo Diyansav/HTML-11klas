@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Направи резервация.</h1>
+
+    
+    <h3>Всички полета с * са задължителни! </h3>
+    <form action="" method="post"> 
+ <fieldset>
+    <table>
+     <tbody>
+           <form action="/action_page.php">
+       
+                      <legend>Лична информация:</legend>
+                      <tr>
+                        <th align="left"><p>Име*</p></th>
+                        <td>
+                          <input type="text" id="fname" name="fname" >
+                          
+                          </td>
+                       </tr>
+
+
+                       <tr>
+                        <th align="left"><p>Фамилия*</p></th>
+                        <td>
+                          <input type="text" id="fname" name="fname" >
+                          
+                          </td>
+                       </tr>
+                       
+                       
+                   
+                       <tr>
+                        <th align="left"><p>Email*</p></th>
+                        <td>
+                          <input type="email" id="email" name="email"placeholder="email@site.com"><br><br></td>
+              
+                       </tr>
+                       
+                    
+                       <tr>
+                        <th align="left"><p>Телефонен номер*</p></th>
+                        <td>
+              
+
+                       <input minlength="10" maxlength="10" type="numbers" id="phone  number" name="phone number" placeholder="### ### ####" ><br><br>
+                      
+                        </td>
+                       </tr>
+                       
+                      
+                       
+                       
+                       
+          
+                      
+        
+      </tbody>
+ </table>
+</fieldset>
+
+   <fieldset>
+    <legend>Информация  за резервацията</legend>
+           <table>
+                 <tbody>
+                       <form action="/action_page.php">
+                        <tr>
+                            <th align="left" ><p>Дата на резервацията:</p></th>
+                            <td>
+                            <input type="date" id="birthday" name="birthday"  required2><br><br></td>
+                      </tr>
+
+                                <tr>
+                                <th align="left" ><p>Час на резервация:</p></th>
+                                    <td><input type="time" id="appt" name="appt" required>
+                                    </td>
+
+                                </tr>
+                               
+                                <tr>
+                                    <th align="left"><p>Място*</p></th>
+                                    <td>
+                                         <select name="cars" id="cars">
+                                        <option value="volvo">1-ви Етаж</option>
+                                        <option value="saab">2-ри Етаж</option>
+                                        <option value="mercedes">Тераса</option>
+                                        
+                                      </select required><br><br></td>
+                          
+                                </tr>   
+
+                                <tr>
+                                    <th align="left"><p>Маса*</p></th>
+                                    <td>
+                                         <select name="cars" id="cars">
+                                        <option value="volvo">Единична</option>
+                                        <option value="saab">Двойна</option>
+                                        <option value="mercedes">Четворна</option>
+                                        <option value="mercedes">Осморна</option>
+                                        
+                                      </select required><br><br></td>
+                          
+                               
+
+                                   <tr>
+                                    <th align="left"><p>Брой души*</p></th>
+                                    <td>
+                                      <input type="number" id="fname" name="fname" min="2" required >
+                                      
+                                      </td>
+                                   </tr>
+
+                       </form>
+                 </tbody>            
+           </table>
+
+   </fieldset>
+   <input type="submit" value="Submit">
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Register form</h1>
+
+    <h3>Имаш профил? <a href="file:///E:/OneDrive/Desktop/HTML/%D0%97%D0%B0%D0%B41/vhod.html"> Влез</a></h3>
+    <h3>Всички полета с * са задължителни! </h3>
+    <form action="" method="post"> 
+ <fieldset>
+    <table>
+     <tbody>
+           <form action="/action_page.php">
+       
+                      <legend>Personal information:</legend>
+                      <tr>
+                        <th align="left"><p>Пълно име*</p></th>
+                        <td>
+                          <input type="text" id="fname" name="fname" placeholder="First">
+                          <label for="lname"></label>
+                          <input placeholder="Last" type="text" id="lname" name="lname"><br><br></td>
+                       </tr>
+                       
+                        <tr>
+                          <th align="left"><p>ЕГН*</p></th>
+                             
+                          <td>
+                            <input minlength="10" maxlength="10" type="numbers" id="Id" name="Id" ><small>ЕГН-то трябва да е 10 символа!</small> <br><br>
+                            <label for="fname">Date of Birth*</label>
+                            <input type="date" id="birthday" name="birthday" ><br><br></td>
+                        </tr>
+
+                        <tr>
+                              <th align="left" ><p>Дата на раждане:</p></th>
+                              <td>
+                              <input type="date" id="birthday" name="birthday" ><br><br></td>
+                        </tr>
+                   
+                       <tr>
+                          <th align="left"><p>Email*</p></th>
+                            
+                        <td>
+                          <input type="email" id="email" name="email"placeholder="email@site.com"><br><br></td>
+              
+                       </tr>
+                       
+                    
+                       <tr>
+                        <th align="left"><p>Телефонен номер*</p></th>
+
+                        <td>
+              
+                          
+                       <input minlength="10" maxlength="10" type="numbers" id="phone  number" name="phone number" placeholder="### ### ####" ><br><br>
+                      
+                        </td>
+                       </tr>
+                       
+                       <tr>
+                          <th align="left"><p>Град*</p></th>
+                             
+                        <td>
+                             <select name="cars" id="cars">
+                            <option value="volvo">Veliko Tarnovo</option>
+                            <option value="saab">Lyaskovec</option>
+                            <option value="mercedes">Sofia</option>
+                            <option value="audi">Plovdiv</option>
+                          </select><br><br></td>
+              
+                       </tr>
+                       
+                       
+                       <tr>
+                        <th align="left"><p>Пол*</p></th>
+                            <td>
+                              <input type="radio" name="gender" value="male"> Male
+                              <input type="radio" name="gender" value="female"> Female <br><br>
+                            </td>
+                       </tr> 
+                      
+                       <tr>
+                        <th align="left"><p>Училище*</p></th>
+                        
+                        <td>
+                          <input type="text" id="fname" name="fname" > <br><br></td>
+                       </tr> 
+                       
+                      <tr>
+                        <th align="left"><p>Клас*</p></th>
+
+                        <td> 
+                          <input type="text" id="fname" name="fname" "><br> <br></td>
+                      </tr>
+          
+                      
+        
+      </tbody>
+ </table>
+</fieldset>
+<input type="submit" value="Submit">
+   <fieldset>
+    <legend>Profile information</legend>
+           <table>
+                 <tbody>
+                       <form action="/action_page.php">
+                                <tr>
+                                  <th align="left"><p>Потребителско име</p></th>
+                                    <td>
+                                        <input type="text" id="fname" name="fname" ><br> <br></td>
+                                </tr>
+
+                                <tr>
+
+                                  <th align="left"><p>Парола</p></th>
+                        
+                                    <td>
+                                        <input type="text" id="fname" name="fname" minlength="6"> <small>Minimum lenght of 6 characters</small><br> <br></td>
+                                </tr>
+                               
+                                <tr>
+                                  <th align="left"><p>Повтори паролата*</p></th>
+                                    <td>
+                                        <input type="text" id="fname" name="fname" minlength="6"> <br> <br></td>
+                                </tr>
+
+                                <tr>
+                                  <th align="left"><p>Избери снимка на прифила</p></th>
+                                  
+                                      <td>
+                                        <input type="file" id="myFile" name="filename">
+                                        <small>Allowed formats are png or jpg</small>
+                                       <br> <br></td>
+                                     
+                                </tr>
+
+                                <tr>
+                                  <th align="left"><p>Newsletter</p></th>
+
+                                    <td>
+                                      
+                                        <input type="checkbox" id="vehicle2" name="vehicle2"> I agree to recieve messages about news and promotions</td>
+                                
+                                </tr>
+
+                       </form>
+                 </tbody>            
+           </table>
+
+   </fieldset>
+
+
+</body>
+</html>
